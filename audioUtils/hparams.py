@@ -1,5 +1,5 @@
-from tensorflow.contrib.training import HParams
-
+#from tensorflow.contrib.training import HParams
+from tfcompat.hparam import HParams
 # Default hyperparameters
 hparams = HParams(
     # Comma-separated list of cleaners to run on text prior to training and eval. For non-English
